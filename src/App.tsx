@@ -1,7 +1,17 @@
 import React from 'react';
+import './app.css';
 
-function App() {
-  return <div></div>;
-}
+export const App: React.FC = () => {
+  return (
+    <div className="app">
+      <div className="app-title">
+        <h1>Simple Editor</h1>
+      </div>
 
-export default App;
+      <div className="app-wrapper">
+        <div className="sidebar"></div>
+        <div className="content"></div>
+      </div>
+    </div>
+  );
+};

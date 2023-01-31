@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.app-title {
+  margin: 15px;
+}
+.app-title h1 {
+  text-align: center;
+  font-size: 24px;
+}
+.app-wrapper {
+  display: flex;
+  flex: 1 0 auto;
+  margin: 30px;
+}
+
+.sidebar {
+  width: 40vh;
+  border: 4px solid black;
+  margin-right: 50px;
+}
+
+.content {
+  border: 4px solid black;
+  flex: 1 0 auto;
+}
