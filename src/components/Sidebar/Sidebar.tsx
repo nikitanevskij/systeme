@@ -10,6 +10,7 @@ export const Sidebar = ({ space }) => {
       e.target.style.boxShadow = '0 4px 3px gray';
     }
   };
+  // изменения
   // @ts-ignore
   const dragLeaveHandler = (e) => {
     e.target.style.boxShadow = 'none';
