@@ -21,6 +21,9 @@ export const App: React.FC = () => {
       <div className="app-title">
         <h1>Simple Editor</h1>
       </div>
+      <div className="app-title">
+        <h1>Simple Editor</h1>
+      </div>
 
       <div className="app-wrapper">
         <div className="sidebar">
