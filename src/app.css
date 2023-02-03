@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .app {
@@ -28,7 +29,7 @@
   margin-right: 50px;
 }
 
-.content {
+.workarea {
   border: 4px solid black;
   flex: 1 0 auto;
 }
